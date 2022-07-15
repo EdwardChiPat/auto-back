@@ -1,0 +1,27 @@
+{
+  "name": "auto-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.0"
+  },
+  "dependencies": {
+    "@types/payment": "^2.1.4",
+    "ajv": "^8.11.0",
+    "dotenv": "^16.0.1",
+    "fastify": "^4.2.1",
+    "fastify-cors": "^6.1.0",
+    "mongoose": "^6.4.4",
+    "payment": "^2.4.6",
+    "typescript": "^4.7.4"
+  }
+}
